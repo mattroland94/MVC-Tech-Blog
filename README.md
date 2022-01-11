@@ -1,5 +1,8 @@
 # MVC-Tech-Blog
 
+## Deployed Application Link
+https://rmr-tech-blog.herokuapp.com/
+
 ## User Story
 AS A developer who writes about tech
 I WANT a CMS-style blog site
