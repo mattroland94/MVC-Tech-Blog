@@ -59,3 +59,42 @@ nav a:hover {
 main {
     margin-top: 15px;
 }
+
+.post {
+    display: flex;
+    margin-top: 10px;
+    display: flex;
+    border: solid 3px rgb(0, 128, 0);
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.post article div {
+    padding: 5px;
+}
+
+.post-title {
+    font-size: 20px
+}
+
+.login-form,
+.signup-form {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    border: solid 3px teal;
+    border-radius: 2px;
+    box-shadow: 1px 1px hsl(43, 89%, 38%, 0.5);
+    padding: 15px 0 15px 0;
+}
+
+.login-form div,
+.signup-form div {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
