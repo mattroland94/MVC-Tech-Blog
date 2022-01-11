@@ -1,0 +1,61 @@
+body {
+    background-color: darkgoldenrod;
+    color: teal;
+}
+
+header {
+    background: black;
+    height: 75px;
+    width: 100%;
+    display: flex;
+}
+
+header h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: green;
+    text-shadow: 1px 1px hsl(43, 89%, 38%, 0.5); 
+}
+
+header h1 a:hover {
+    color: darkgoldenrod;
+    text-shadow: 1px 1px rgb(88, 202, 65, 0.5);
+    cursor: pointer;
+}
+
+nav {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: green;
+    text-shadow: 1px 1px hsl(43, 89%, 38%, 0.5);
+    font-size: 20px;
+    border: solid 2px green;
+    border-radius: 2px;
+    box-shadow: 1px 1px hsl(43, 89%, 38%, 0.5);
+    padding: 5px;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+    text-shadow: 1px 1px rgb(0, 128, 0, 0.5);
+    border: solid 2px darkgoldenrod;
+    box-shadow: 1px 1px rgb(0, 128, 0, 0.5);
+}
+
+main {
+    margin-top: 15px;
+}
